@@ -5,8 +5,10 @@ body{
 h1{
     size: 65px;
 }
-h3{
-    size:40px;
+.sub-heading{
+    size:80px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 /* header style */
 header{
@@ -36,14 +38,10 @@ header{
     align-items: center;
     /* width: 1072px;
     height: 723.3px; */
-    margin: 50px 100px;
+    margin: 10px 150px;
     gap: 40px;
 }
-.sub-heading{
-    size:80px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
+
 /* my plan section */
 .my-plan{
     text-align: center;
@@ -53,4 +51,19 @@ header{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+/* mindset section style */
+.mindset{
+    background-repeat: no-repeat;
+    margin: 30px 230px;
+    padding: 64px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(/images/watch.png);
+    border-radius: 5px;
+}
+#cal-now-btn{
+    color:#F15B22;
+    background-color: white;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: #F15B22;
 }
