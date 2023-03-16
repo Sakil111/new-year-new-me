@@ -1,4 +1,13 @@
-
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+h1{
+    size: 65px;
+}
+h3{
+    size:40px;
+}
 /* header style */
 header{
     background-image: url(../images/banner/banner2.png);
@@ -20,4 +29,28 @@ header{
     border-radius: 5px;
     padding: 20px 25px;
     color: white;
+}
+/* main section style */
+.about-past{
+    display: flex;
+    align-items: center;
+    /* width: 1072px;
+    height: 723.3px; */
+    margin: 50px 100px;
+    gap: 40px;
+}
+.sub-heading{
+    size:80px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* my plan section */
+.my-plan{
+    text-align: center;
+    margin: 120px 130px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
